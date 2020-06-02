@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+rainbow_quiz = Quiz.create(name: "Rainbow Quiz", category: "Miscellaneous")
+rainbow_quiz.questions.build(content: "What is the first color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the second color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the third color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the fourth color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the fifth color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the sixth color of the Rainbow?", answer: "red")
+rainbow_quiz.questions.build(content: "What is the seventh color of the Rainbow?", answer: "red")
