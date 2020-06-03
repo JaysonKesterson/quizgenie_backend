@@ -1,7 +1,7 @@
 class Api::V1::QuizzesController < ApplicationController
     def index
         quizzes = Quiz.all
-        render json: quizzes
+        render json: QuizSerializer.new(quizzes)
     end
 
     def create
